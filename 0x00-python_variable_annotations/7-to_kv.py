@@ -1,6 +1,12 @@
-from typing import tuple, union
+#!/usr/bin/env python3
+""" Complex types - string and int/float to tuple"""
+from typing import Callable, Iterator, Union, Optional, List, Tuple
 
 
-def to_kv(k: str, v: union[int, float])-> tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
+    """
+    takes a string k and an int OR float v as arguments
+    returns a tuple.
+    """
 
-    return (k, float(v**2))
+    return (k, v**2)

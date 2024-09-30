@@ -1,3 +1,9 @@
-def sum_mixed_list(mxd_lst: list[union[int,float]]) -> float:
+#!/usr/bin/env python3
 
-    return float(sum(list))
+""" mixed list """
+from typing import Union, List
+
+
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
+    """  returns sum as a float. """
+    return float(sum(mxd_lst))

@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
+""" Basic annotations concat """
+
 import math
 
 
-def floor(a: float) -> int:
-    '''Computes the floor of a floating-point number.
-    '''
-    return math.floor(a)
+def floor(n: float) -> int:
+    """ Returns the floor of the float """
+    return math.floor(n)
